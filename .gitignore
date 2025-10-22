@@ -1,0 +1,28 @@
+# ==== Flutter / Dart ====
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+ios/Pods/
+android/.gradle/
+android/app/build/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+pubspec.lock
+
+# ==== Node / NestJS ====
+backend/node_modules/
+backend/dist/
+backend/.env
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ==== Common ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env

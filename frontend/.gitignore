@@ -1,0 +1,95 @@
+# ================================
+# Flutter / Dart / Pub related
+# ================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ================================
+# Android / Gradle
+# ================================
+*.apk
+*.aar
+*.iml
+.gradle/
+local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# ================================
+# iOS / Xcode / CocoaPods
+# ================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/.generated/
+*.xcworkspace
+*.xcuserdatad
+*.xcuserdata
+DerivedData/
+Podfile.lock
+
+# ================================
+# macOS / Linux / Windows builds
+# ================================
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+.DS_Store
+
+# ================================
+# IDE / Editors
+# ================================
+.idea/
+.vscode/
+*.iws
+*.ipr
+*.swp
+.history
+.atom/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ================================
+# Logs / Temp / Misc
+# ================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.class
+*.pyc
+.build/
+.buildlog/
+app.*.symbols
+app.*.map.json
+
+# ================================
+# Optional (cho dự án app)
+# Nếu bạn làm APP Flutter, GIỮ pubspec.lock để đồng bộ dependency
+# Nếu làm PACKAGE, có thể uncomment dòng dưới để bỏ qua pubspec.lock
+# pubspec.lock
+# ================================
+# Flutter metadata (máy nào sinh khác máy đó)
+.metadata
+
+# Keystore / khóa ký Android
+**/*.keystore
+**/*.jks
+android/key.properties
+
+# Secrets / biến môi trường
+.env
+.env.*
